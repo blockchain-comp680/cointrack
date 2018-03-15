@@ -1,0 +1,65 @@
+page-login {
+  .pane {
+    min-height: 100vh;
+    max-width: 100vw;
+    background-color: color($colors, semidark);
+  }
+ 
+    .logo-wrapper {
+      width: 100vw;
+      flex: 2;
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      #logo {
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: column;
+        width: 36vw;
+        height: 36vw;
+        justify-content: center;
+        align-items: center;
+        background-color: color($colors, pearl);
+        border-radius: 50%;
+        img {
+          width: 68%;
+        }
+      }
+      #logo.rotate {
+        animation-name: spin;
+        animation-duration: 2000ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        -webkit-animation-name: spin;
+        -webkit-animation-duration: 2000ms;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+      }
+     
+    }  
+  }
+  form{
+   margin-top: 70px;
+  
+  ion-item{
+    border-radius: 5px;
+    background-color: color($colors, semidark) !important;
+  }
+    button {
+      margin-top: 20px !important;
+      text-align: center;
+    }
+
+   
+  }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
