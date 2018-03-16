@@ -1,7 +1,7 @@
 {
-    "name": "coincheck",
+    "name": "cointrack",
     "version": "0.0.1",
-    "author": "quanganh@aiti.com.vn",
+    "author": "lagson6@gmail.com",
     "homepage": "www.blockchain-comp680.github.io",
     "private": true,
     "scripts": {
@@ -63,8 +63,8 @@
             "cordova-plugin-whitelist": {},
             "ionic-plugin-keyboard": {},
             "cordova-plugin-camera": {
-                "CAMERA_USAGE_DESCRIPTION": "9Bitcoin use your camera",
-                "PHOTOLIBRARY_USAGE_DESCRIPTION": "9Bitcoin use your Photo Library"
+                "CAMERA_USAGE_DESCRIPTION": "CoinTrack use your camera",
+                "PHOTOLIBRARY_USAGE_DESCRIPTION": "CoinTrack use your Photo Library"
             },
             "phonegap-plugin-barcodescanner": {
                 "CAMERA_USAGE_DESCRIPTION": " "
